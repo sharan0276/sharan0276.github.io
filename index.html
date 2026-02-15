@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sharan Giri - ML Engineer</title>
+    <title>Sharan Giri | ML Platform Engineer Portfolio</title>
     <meta name="description"
         content="Portfolio of Sharan Giri, a Machine Learning Engineer specializing in production ML systems and data pipelines.">
 
@@ -18,6 +18,14 @@
 
     <!-- Font Awesome for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1TBS218LDE"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-1TBS218LDE');
+    </script>
 </head>
 
 <body>
@@ -32,11 +40,14 @@
             <div class="hero-content">
                 <h1 id="hero-name" class="hero-name">Sharan Giri</h1>
                 <h2 id="hero-tagline" class="hero-tagline">ML Platform Engineer | Ex-Barclays</h2>
-                <p id="hero-oneliner" class="hero-oneliner">Hello, welcome to my page</p>
+                <p id="hero-oneliner" class="hero-oneliner">I build production ML pipelines and reliable AI systems </p>
                 <div class="hero-actions">
                     <a href="#experience" class="btn btn-primary">View Experience</a>
                     <a href="assets/Sharan_Giri_Resume.pdf" download="Sharan_Giri_Resume.pdf" class="btn btn-secondary"
-                        onclick="trackDownload()">
+                        onclick="gtag('event', 'download', {
+                        'event_category': 'resume',
+                        'event_label': 'Sharan_Giri_Resume'
+                        });">
                         <i class="fas fa-download"></i> Download Resume
                     </a>
                     <div id="hero-socials" class="hero-socials">

@@ -60,10 +60,6 @@ document.addEventListener('DOMContentLoaded', async () => {
 });
 
 // Resume download tracking
-function trackDownload() {
-    console.log('Resume download tracked');
-}
-window.trackDownload = trackDownload;
 
 // Render Hero Section
 function renderHero(profile) {
