@@ -1,0 +1,34 @@
+{
+    "certifications": [
+        {
+            "id": "ml-python",
+            "name": "Machine Learning with Python",
+            "issuer": "Cognitive Class",
+            "date": "Jan 2026",
+            "credential_id": "2bfb947398284bb0b04fcd6d4582a3aa",
+            "credential_url": "https://courses.cognitiveclass.ai/certificates/2bfb947398284bb0b04fcd6d4582a3aa"
+        },
+        {
+            "id": "goldman-sachs",
+            "name": "Goldman Sachs - Risk Job Simulation",
+            "issuer": "Forage",
+            "date": "Dec 2025",
+            "credential_id": "2SAtFFjpg7HjDP2Jd",
+            "credential_url": "https://www.theforage.com/completion-certificates/MBA4MnZTNFEoJZGnk/ETGMhLB5eCrYjcH8o_MBA4MnZTNFEoJZGnk_694778d014fe972937bdb97d_1766385177706_completion_certificate.pdf"
+        },
+        {
+            "id": "finance-engineers",
+            "name": "Finance for Engineers",
+            "issuer": "Emory University",
+            "date": "Mar 2021",
+            "credential_url": "https://www.linkedin.com/in/sharan-giri/overlay/Certifications/827701620/treasury/?profileId=ACoAADA48FwBCw7FoqNKtclGTwBK6oKI_n44trE"
+        },
+        {
+            "id": "iot",
+            "name": "Introduction to Internet Of Things",
+            "issuer": "Indian Institute of Technology, Kharagpur",
+            "date": "Jan 2021",
+            "credential_url": "https://drive.google.com/file/d/14I6MANXjtsCcs-PBjf6pLggPmm-gnL1L/view?usp=sharing"
+        }
+    ]
+}

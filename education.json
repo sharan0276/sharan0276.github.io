@@ -1,0 +1,34 @@
+{
+    "education": [
+        {
+            "id": "northeastern",
+            "school": "Northeastern University",
+            "college": "Khoury College of Computer Science",
+            "degree": "Master's degree",
+            "field": "Data Science",
+            "gpa": "4.0",
+            "dates": "Sep 2024 – May 2026",
+            "location": "Boston, MA",
+            "achievements": [
+                "Secured Third Place at Google-Northeastern Expo for AudioSeek (December 2025)"
+            ],
+            "skills": [
+                "Python (Programming Language)",
+                "Flask",
+                "Machine Learning",
+                "Deep Learning",
+                "MLOps"
+            ]
+        },
+        {
+            "id": "ssn",
+            "school": "SSN College of Engineering",
+            "university": "Anna University",
+            "degree": "Bachelor of Engineering",
+            "field": "Computer Engineering",
+            "gpa": "3.7",
+            "dates": "2018 – 2022",
+            "location": "India"
+        }
+    ]
+}

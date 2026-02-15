@@ -1,0 +1,82 @@
+{
+    "professional_experience": [
+        {
+            "id": "barclays",
+            "company": "Barclays Global Service Centre",
+            "division": "Markets And Private Banking Technology",
+            "title": "Automation Developer (Business Analyst Grade)",
+            "type": "Full-time",
+            "location": "India",
+            "dates": "Aug 2022 – Jun 2024",
+            "duration": "2 years",
+            "highlights": [
+                "Collaborated with Markets and Private Bank stakeholders to build governed data pipelines converting emails, CSVs, and API JSON into analysis-ready tables with validation checks, improving throughput by 50% and saving 85 hours/month",
+                "Modernized legacy automations into API-driven components through stakeholder requirements gathering, reducing turnaround time by 33%, enabling faster integration with downstream systems",
+                "Added validation checks and alerting to production workflows, reducing false alarms by 72% and improving data reliability",
+                "Supported controlled releases with post-deployment checks to ensure stable reporting and minimal downstream disruption",
+                "Led stakeholder walkthroughs and change management while maintaining runbooks, design docs, and release notes",
+                "Owned production support for scheduled workflows, coordinating fixes to meet defined SLAs"
+            ],
+            "skills": [
+                "Python",
+                "REST APIs",
+                "BluePrism",
+                "UiPath",
+                "Alteryx",
+                "Workflow Orchestration",
+                "Data Pipelines",
+                "Production Support"
+            ]
+        }
+    ],
+    "teaching_experience": [
+        {
+            "id": "northeastern-ta-grad",
+            "company": "Khoury College of Computer Sciences",
+            "organization": "Northeastern University",
+            "title": "Graduate Teaching Assistant",
+            "type": "Part-time",
+            "location": "Boston, Massachusetts, United States",
+            "remote": true,
+            "dates": "Jan 2026 – Present",
+            "duration": "2 months",
+            "highlights": [
+                "Support 40 students through office hours, reinforcing ML concepts including supervised learning, neural networks, and model evaluation",
+                "Help students debug Python ML code and troubleshoot issues with scikit-learn and PyTorch implementations",
+                "Grade assignments and projects on ML algorithms, feature engineering, and model performance analysis",
+                "Assist professor with course logistics and student communications"
+            ],
+            "skills": [
+                "Python (Programming Language)",
+                "Technical Communication",
+                "Machine Learning",
+                "scikit-learn",
+                "PyTorch"
+            ]
+        },
+        {
+            "id": "northeastern-ta-undergrad",
+            "company": "Khoury College of Computer Sciences",
+            "organization": "Northeastern University",
+            "title": "Undergraduate Teaching Assistant",
+            "type": "Part-time",
+            "location": "Boston, Massachusetts, United States",
+            "remote": true,
+            "dates": "Jun 2025 – Aug 2025",
+            "duration": "3 months",
+            "highlights": [
+                "Designed modular programming assignments breaking complex problems into weekly objectives, enabling students to build complete solutions incrementally",
+                "Led office hours and mentoring sessions on Python fundamentals including control flow, functions, data structures, and object-oriented programming",
+                "Guided students in applying programming concepts to data analysis and visualization using matplotlib, NumPy, and statistics libraries",
+                "Graded assignments and provided feedback on code logic and problem-solving, emphasizing independent thinking and academic integrity"
+            ],
+            "skills": [
+                "University Lecturing",
+                "Data Analysis",
+                "Python (Programming Language)",
+                "Teaching",
+                "Mentoring"
+            ]
+        }
+    ]
+}

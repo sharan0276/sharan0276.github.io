@@ -1,0 +1,93 @@
+{
+    "projects": [
+        {
+            "id": "courselens",
+            "title": "CourseLENS",
+            "tagline": "Agentic AI Learning Platform",
+            "dates": "Jan 2026 – Present",
+            "award": "In Progress",
+            "description": "Building an intelligent RAG tutor with tree-based hierarchical retrieval linking facts to conceptual blocks. Implementing structure-aware chunking to preserve code block integrity and hybrid routing between vector search and knowledge graphs on GCP. Applying temporal gating to prevent context leakage by filtering content based on student curriculum progress.",
+            "github_link": "https://github.com/sharan0276/CourseLens",
+            "skills": [
+                "Python",
+                "RAG",
+                "FAISS",
+                "Knowledge Graphs",
+                "Vector Search",
+                "GCP"
+            ]
+        },
+        {
+            "id": "amazon-beauty",
+            "title": "Early Product Success Prediction",
+            "tagline": "Multi-Modal Review Analysis for Retail",
+            "dates": "Dec 2025 – Jan 2026",
+            "description": "Built retail product success prediction system analyzing Amazon Beauty reviews with 40 engineered features (rating trend, sentiment polarity, review velocity). Designed PySpark pipeline for data transformation and performed A/B ablation tests across unimodal and multimodal inputs. Achieved Precision@100 = 0.65 with Lift@100 = 2.6, improving top-K recommendations by 10-12% over baselines. Used SHAP to explain key drivers of early product traction.",
+            "github_link": "https://github.com/sharan0276/AmazonBeautyReview",
+            "skills": [
+                "PySpark",
+                "Python",
+                "Time Series Features",
+                "Behavorial Features",
+                "NLP",
+                "A/B Testing",
+                "XGBoost",
+                "HistGradientBoosting"
+            ]
+        },
+        {
+            "id": "audioseek",
+            "title": "AudioSEEK",
+            "tagline": "End-to-End Reliable LLM Inference Platform",
+            "dates": "Sep 2025 – Dec 2025",
+            "award": "🏆 3rd Place Google Expo",
+            "description": "Built audio RAG service delivering timestamp-aligned answers under 15 seconds across 4 audiobooks (8 hours each). Designed microservices architecture orchestrated on Kubernetes (GKE) and deployed on GCP via Terraform. Applied metadata constraints to prevent spoilers based on listening progress and grounded responses with timestamped citations for click-to-play verification. Added MLflow tracking for latency, token usage, chunk coverage, and model regression monitoring. Built admin dashboard for pipeline health monitoring.",
+            "github_link": "https://github.com/sharan0276/audioSeek",
+            "skills": [
+                "Kubernetes",
+                "MLflow",
+                "Terraform",
+                "GCP",
+                "RAG",
+                "FastAPI",
+                "Docker",
+                "OpenAI Whisper",
+                "React"
+            ]
+        },
+        {
+            "id": "roadsense",
+            "title": "RoadSense",
+            "tagline": "Accident Severity Risk Modeling",
+            "dates": "Nov 2025 – Dec 2025",
+            "description": "Built accident severity prediction system to support emergency response prioritization. Consolidated 52K-record dataset from 4 tables, engineering 50 features across contextual dimensions including weather, road conditions, time factors, and location attributes. Trained XGBoost model under 17:1 class imbalance using class weights and threshold tuning to optimize for recall of severe accidents. Converted predictions into a lethality risk score for real-time emergency dispatch optimization.",
+            "github_link": "https://github.com/sharan0276/RoadSense",
+            "skills": [
+                "XGBoost",
+                "Feature Engineering",
+                "Class Imbalance",
+                "Python",
+                "Pandas",
+                "Scikit-learn",
+                "Risk Modeling"
+            ]
+        },
+        {
+            "id": "traffic-forecasting",
+            "title": "Effects of Exogenous Factors in Traffic Forecasting",
+            "tagline": "Urban Traffic Flow Prediction with Bayesian Optimization",
+            "dates": "Nov 2021 – May 2022",
+            "award": "Published Paper",
+            "description": "Built traffic flow prediction system addressing spatiotemporal dependencies and external factors (weather, peak hours, holidays) often overlooked in traditional models. Implemented Prophet additive regressive model with Bayesian-directed hyperparameter optimization to capture stochastic traffic patterns. Demonstrated that incorporating exogenous factors improved forecast accuracy by capturing traffic trends over weekends and seasonal holidays. Co-authored research paper published in Springer Algorithms for Intelligent Systems.",
+            "github_link": "",
+            "skills": [
+                "Prophet",
+                "Bayesian Optimization",
+                "Time Series Analysis",
+                "Python",
+                "ARIMA",
+                "Feature Engineering"
+            ]
+        }
+    ]
+}

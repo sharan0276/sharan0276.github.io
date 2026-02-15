@@ -1,0 +1,18 @@
+{
+    "name": "Sharan Giri",
+    "location": "Boston, MA",
+    "email": "giri.sha@northeastern.edu",
+    "phone": "(857) 565-4042",
+    "github": "https://github.com/sharan0276",
+    "linkedin": "https://linkedin.com/in/sharan-giri",
+    "tagline": "ML & Data Platform Engineer | Production Systems | Ex-Barclays",
+    "one_liner": "I build production ML systems that solve real problems",
+    "about": {
+        "text": "My interest in data started watching cricket. Seeing the Decision Review System predict ball trajectories in real time using cameras, weather data, and bowler history showed me how data could make split-second decisions more accurate. It excited me to think about how this same approach could predict anything with patterns—weather, traffic flow, even customer behavior.\n\nI spent 2 years at Barclays building automation pipelines that saved 85 hours monthly and reduced false alarms by 72%. What made this work effective was spending time with stakeholders and end users to understand their actual pain points. Sitting with traders and operations teams taught me to ask better questions—what slows you down, where do errors happen, what would save you the most time. This approach helped me build solutions that teams actually adopted and relied on. Working in regulated finance taught me that the best ML system is the one stakeholders trust when it matters, not the one with the most sophisticated architecture.\n\nNow completing my MS in Data Science at Northeastern, I am building AI infrastructure that bridges technical capability with business impact. Recent work includes AudioSeek, a RAG platform on Kubernetes that won third place at the Google-Northeastern Expo. I am looking for ML Engineering or AI Platform roles where understanding user needs and delivering reliable systems both matter. Outside work, I follow cricket religiously, love watching movies, experimenting with new recipes in the kitchen, and spending time with friends."
+    },
+    "contact": {
+        "email": "giri.sha@northeastern.edu",
+        "github": "https://github.com/sharan0276",
+        "linkedin": "https://linkedin.com/in/sharan-giri"
+    }
+}

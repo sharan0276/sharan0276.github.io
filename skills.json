@@ -1,0 +1,53 @@
+{
+    "technical_skills": {
+        "data_engineering": [
+            "Python",
+            "SQL",
+            "Pandas",
+            "REST APIs",
+            "Flask",
+            "FastAPI",
+            "JSON",
+            "Git",
+            "Linux",
+            "PySpark"
+        ],
+        "mlops_infrastructure": [
+            "Docker",
+            "Kubernetes (GKE)",
+            "MLflow",
+            "DVC",
+            "Airflow",
+            "CI/CD (GitHub Actions)",
+            "Terraform"
+        ],
+        "ml_ai_systems": [
+            "RAG Pipelines",
+            "Embeddings",
+            "FAISS",
+            "Scikit-learn",
+            "PyTorch",
+            "Feature Engineering",
+            "Prompt Engineering",
+            "XGBoost"
+        ],
+        "cloud_platforms": [
+            "GCP (Cloud Run, GCS, Firestore, Cloud SQL)",
+            "Production Monitoring"
+        ],
+        "automation_integration": [
+            "BluePrism",
+            "UiPath",
+            "Alteryx",
+            "Workflow Orchestration"
+        ],
+        "additional": [
+            "Time Series Analysis",
+            "Prophet",
+            "Bayesian Optimization",
+            "SHAP",
+            "Knowledge Graphs",
+            "Vector Search"
+        ]
+    }
+}

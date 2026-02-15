@@ -1,0 +1,29 @@
+{
+    "publications": [
+        {
+            "id": "traffic-forecast-paper",
+            "title": "Effects of Exogenous Factors and Bayesian-Bandit Hyperparameter Optimization in Traffic Forecast Analysis",
+            "publisher": "Springer",
+            "publication_venue": "Algorithms for Intelligent Systems",
+            "date": "Mar 9, 2024",
+            "description": "Addressed urban traffic congestion challenges by exploring short-term traffic flow prediction to improve Intelligent Transport Systems (ITS). Highlighted the importance of exogenous factors in traffic prediction, focussing on how external influences affect flow forecasting. Analyzed the impact of various factors on traffic patterns, contributing to smarter urban planning and transportation management.",
+            "link": "Show publication",
+            "authors": [
+                "Sharan Giri",
+                "Co-authors"
+            ]
+        },
+        {
+            "id": "hate-speech-paper",
+            "title": "Classification of Hate Speech and Offensive Content using an approach based on DistilBERT",
+            "publisher": "CEUR Workshop Proceedings",
+            "date": "Dec 21, 2021",
+            "description": "Identified hate speech and offensive language in social media comments through data analysis. Surveyed various ML and DL models to evaluate their effectiveness in detecting hate and offensive comments, aiming for higher accuracy.",
+            "link": "Show publication",
+            "authors": [
+                "Sharan Giri",
+                "Co-authors"
+            ]
+        }
+    ]
+}
