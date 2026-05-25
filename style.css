@@ -224,11 +224,23 @@ ul {
     transform: translateX(5px);
 }
 
-.impact-card i {
+.impact-card i,
+.impact-card svg {
     display: block;
+    margin: 0 auto 0.5rem;
+}
+
+.impact-card i {
     font-size: 1.5rem;
     color: var(--accent-color);
-    margin-bottom: 0.5rem;
+}
+
+.impact-card svg {
+    width: 1.75rem;
+    height: 1.75rem;
+    stroke: var(--accent-color);
+    stroke-width: 2;
+    fill: none;
 }
 
 .impact-number {
@@ -440,15 +452,18 @@ ul {
 }
 
 .project-award {
-    position: absolute;
-    top: 0;
-    right: 0;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    align-self: flex-start;
     background-color: #FEF3C7;
     color: #D97706;
-    padding: 0.5rem 1rem;
+    padding: 0.35rem 0.75rem;
     font-size: 0.75rem;
     font-weight: 700;
-    border-bottom-left-radius: var(--radius-md);
+    border-radius: var(--radius-md);
+    margin-bottom: 0.75rem;
+    width: fit-content;
 }
 
 .project-title {

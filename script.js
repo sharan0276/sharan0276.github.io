@@ -85,29 +85,50 @@ function renderImpact(experience, education, projects) {
         {
             number: "2 Years",
             text: "Enterprise Intelligent Automation",
-            icon: "fas fa-project-diagram"
+            svg: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect>
+                <rect x="9" y="9" width="6" height="6"></rect>
+                <line x1="9" y1="1" x2="9" y2="4"></line>
+                <line x1="15" y1="1" x2="15" y2="4"></line>
+                <line x1="9" y1="20" x2="9" y2="23"></line>
+                <line x1="15" y1="20" x2="15" y2="23"></line>
+                <line x1="20" y1="9" x2="23" y2="9"></line>
+                <line x1="20" y1="15" x2="23" y2="15"></line>
+                <line x1="1" y1="9" x2="4" y2="9"></line>
+                <line x1="1" y1="15" x2="4" y2="15"></line>
+            </svg>`
         },
         {
             number: "50%",
             text: "Pipeline Throughput Improvement",
-            icon: "fas fa-forward"
+            svg: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
+                <polyline points="17 6 23 6 23 12"></polyline>
+            </svg>`
         },
         {
             number: "85 Hours/Month",
             text: "Automated via Production Pipelines",
-            icon: "fas fa-clock"
+            svg: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="23 4 23 10 17 10"></polyline>
+                <polyline points="1 20 1 14 7 14"></polyline>
+                <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path>
+            </svg>`
         },
         {
             number: "98%",
             text: "LLM Token Cost Reduction",
-            icon: "fas fa-chart-line"
+            svg: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="23 18 13.5 8.5 8.5 13.5 1 6"></polyline>
+                <polyline points="17 18 23 18 23 12"></polyline>
+            </svg>`
         }
     ];
 
     const grid = document.getElementById('impact-grid');
     grid.innerHTML = impacts.map(item => `
         <div class="impact-card">
-            <i class="${item.icon}"></i>
+            ${item.svg}
             <span class="impact-number">${item.number}</span>
             <span class="impact-text">${item.text}</span>
         </div>
@@ -253,10 +274,10 @@ function renderProjects(projects) {
 
     container.innerHTML = projects.map(proj => `
         <div class="project-card">
-            ${proj.award ? `<div class="project-award">${proj.award}</div>` : ''}
             <h3 class="project-title">${proj.title}</h3>
             ${proj.tagline ? `<div class="project-tagline">${proj.tagline}</div>` : ''}
             <div class="project-dates">${proj.dates}</div>
+            ${proj.award ? `<div class="project-award"><i class="fas fa-award"></i> ${proj.award}</div>` : ''}
             <p class="project-desc collapsed" id="desc-${proj.id}">
                 ${proj.description}
             </p>
@@ -374,6 +395,7 @@ function renderSkills(skills) {
         data_engineering: "Data Engineering",
         mlops_infrastructure: "MLOps & Infrastructure",
         ml_ai_systems: "ML & AI Systems",
+        ml_modeling: "ML Modeling",
         cloud_platforms: "Cloud Platforms",
         automation_integration: "Automation & Integration",
         additional: "Additional Skills"
