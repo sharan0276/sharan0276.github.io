@@ -4,18 +4,17 @@
             "id": "barclays",
             "company": "Barclays Global Service Centre",
             "division": "Markets And Private Banking Technology",
-            "title": "Automation Developer (Business Analyst Grade)",
+            "title": "Software and Automation Engineer | Data Pipeline and API Integration",
             "type": "Full-time",
             "location": "India",
             "dates": "Aug 2022 – Jun 2024",
             "duration": "2 years",
             "highlights": [
-                "Collaborated with Markets and Private Bank stakeholders to build governed data pipelines converting emails, CSVs, and API JSON into analysis-ready tables with validation checks, improving throughput by 50% and saving 85 hours/month",
-                "Modernized legacy automations into API-driven components through stakeholder requirements gathering, reducing turnaround time by 33%, enabling faster integration with downstream systems",
-                "Added validation checks and alerting to production workflows, reducing false alarms by 72% and improving data reliability",
-                "Supported controlled releases with post-deployment checks to ensure stable reporting and minimal downstream disruption",
-                "Led stakeholder walkthroughs and change management while maintaining runbooks, design docs, and release notes",
-                "Owned production support for scheduled workflows, coordinating fixes to meet defined SLAs"
+                "Built production-grade pipelines processing ML extraction outputs from unstructured email and API/JSON sources into structured formats, improving throughput by 50% and saving 85 hours/month",
+                "Enforced error volume thresholds and automated stakeholder alerting across 6 production workflows, reducing false-positive alerts by 72% and improving system reliability",
+                "Migrated 4 UI-based automations to API-driven components, cutting turnaround by 33% and improving pipeline reliability",
+                "Debugged live production failures across 6 workflows, identifying root causes and coordinating hotfixes under a 2-day SLA resolution target",
+                "Enforced data quality checks at pipeline ingestion, catching malformed API responses and preventing downstream failures before stakeholder impact"
             ],
             "skills": [
                 "Python",
@@ -41,13 +40,12 @@
             "dates": "Jan 2026 – Present",
             "duration": "2 months",
             "highlights": [
-                "Support 40 students through office hours, reinforcing ML concepts including supervised learning, neural networks, and model evaluation",
-                "Help students debug Python ML code and troubleshoot issues with scikit-learn and PyTorch implementations",
-                "Grade assignments and projects on ML algorithms, feature engineering, and model performance analysis",
-                "Assist professor with course logistics and student communications"
+                "Supported 40 students through office hours, reinforcing ML concepts including supervised learning, neural networks, and model evaluation",
+                "Helped students debug Python ML code and troubleshoot issues with scikit-learn and PyTorch implementations",
+                "Graded assignments and projects on ML algorithms, feature engineering, and model performance analysis"
             ],
             "skills": [
-                "Python (Programming Language)",
+                "Python",
                 "Technical Communication",
                 "Machine Learning",
                 "scikit-learn",
@@ -68,14 +66,15 @@
                 "Designed modular programming assignments breaking complex problems into weekly objectives, enabling students to build complete solutions incrementally",
                 "Led office hours and mentoring sessions on Python fundamentals including control flow, functions, data structures, and object-oriented programming",
                 "Guided students in applying programming concepts to data analysis and visualization using matplotlib, NumPy, and statistics libraries",
-                "Graded assignments and provided feedback on code logic and problem-solving, emphasizing independent thinking and academic integrity"
+                "Graded assignments and provided feedback on code logic, data structures, and algorithmic efficiency across 30 plus student submissions"
             ],
             "skills": [
-                "University Lecturing",
+                "Python",
                 "Data Analysis",
-                "Python (Programming Language)",
-                "Teaching",
-                "Mentoring"
+                "NumPy",
+                "Matplotlib",
+                "Data Structures",
+                "Teaching"
             ]
         }
     ]

@@ -5,49 +5,56 @@
             "SQL",
             "Pandas",
             "REST APIs",
-            "Flask",
             "FastAPI",
-            "JSON",
+            "PySpark",
+            "Airflow",
             "Git",
-            "Linux",
-            "PySpark"
+            "CI/CD (GitHub Actions)",
+            "Linux"
+        ],
+        "ml_ai_systems": [
+            "RAG Pipelines (Retrieval Augmented Generation)",
+            "Agentic AI Systems",
+            "Multi-Agent Orchestration",
+            "LangChain",
+            "LangGraph",
+            "FAISS",
+            "Vector Databases",
+            "BM25",
+            "BGE-M3",
+            "HuggingFace",
+            "Pydantic",
+            "Prompt Engineering",
+            "Structured Output Generation",
+            "LLM Evaluation",
+            "Ragas"
+        ],
+        "ml_modeling": [
+            "PyTorch",
+            "Scikit-learn",
+            "XGBoost",
+            "Feature Engineering",
+            "SHAP",
+            "ML Observability",
+            "Time Series Analysis",
+            "Bayesian Optimization"
         ],
         "mlops_infrastructure": [
             "Docker",
             "Kubernetes (GKE)",
             "MLflow",
-            "DVC",
-            "Airflow",
-            "CI/CD (GitHub Actions)",
-            "Terraform"
-        ],
-        "ml_ai_systems": [
-            "RAG Pipelines",
-            "Embeddings",
-            "FAISS",
-            "Scikit-learn",
-            "PyTorch",
-            "Feature Engineering",
-            "Prompt Engineering",
-            "XGBoost"
+            "Terraform",
+            "DVC"
         ],
         "cloud_platforms": [
             "GCP (Cloud Run, GCS, Firestore, Cloud SQL)",
-            "Production Monitoring"
+            "Gemini Flash"
         ],
         "automation_integration": [
             "BluePrism",
             "UiPath",
             "Alteryx",
             "Workflow Orchestration"
-        ],
-        "additional": [
-            "Time Series Analysis",
-            "Prophet",
-            "Bayesian Optimization",
-            "SHAP",
-            "Knowledge Graphs",
-            "Vector Search"
         ]
     }
 }

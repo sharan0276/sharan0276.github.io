@@ -84,23 +84,23 @@ function renderImpact(experience, education, projects) {
     const impacts = [
         {
             number: "2 Years",
-            text: "Production Pipeline Orchestration",
+            text: "Enterprise Intelligent Automation",
             icon: "fas fa-project-diagram"
         },
         {
-            number: "50% Faster",
-            text: "End-to-End Processing Time",
+            number: "50%",
+            text: "Pipeline Throughput Improvement",
             icon: "fas fa-forward"
         },
         {
             number: "85 Hours/Month",
-            text: "Monthly Productivity Gain",
+            text: "Automated via Production Pipelines",
             icon: "fas fa-clock"
         },
         {
-            number: "72%",
-            text: "False Alarm Reduction",
-            icon: "fas fa-shield-alt"
+            number: "98%",
+            text: "LLM Token Cost Reduction",
+            icon: "fas fa-chart-line"
         }
     ];
 
