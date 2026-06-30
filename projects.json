@@ -5,7 +5,6 @@
             "title": "CourseLENS",
             "tagline": "Governed Multi-Turn AI Reasoning System",
             "dates": "Jan 2026 – Present",
-            "award": "SIGDIAL 2026 (Under Review)",
             "description": "Built a governed AI reasoning system that controls exactly what an LLM can and cannot say based on verified course material. The core idea was replacing unpredictable LLM behavior with a 4-stage policy engine that routes every query deterministically and logs every decision. Retrieval is anchored to a parent-child vector store with curriculum-gated boundaries so the system only reasons over content a student has actually covered. Validated under adversarial stress testing with 100% policy compliance and 96.15% Ragas-scored faithfulness.",
             "github_link": "https://github.com/sharan0276/CourseLens",
             "skills": [
